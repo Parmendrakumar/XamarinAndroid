@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/txtBarcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Barcode" />
+    <EditText
+        android:id="@+id/txtHeight"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height"
+        android:inputType="numberDecimal"
+          />
+    <EditText
+        android:id="@+id/txtWidth"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Width" 
+        android:inputType="numberDecimal"/>
+    <EditText
+        android:id="@+id/txtDepth"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Depth" 
+        android:inputType="numberDecimal"/>
+    <Button
+        android:text="Save"
+        android:layout_width="fill_parent"
+        android:layout_height="38.0dp"
+        android:id="@+id/fl_Save"
+        android:inputType="numberDecimal"/>
+</LinearLayout>
